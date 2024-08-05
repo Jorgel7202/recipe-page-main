@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Inter-Bold";
-  src: url(assets/fonts/static/Inter-Bold.ttf) format("truetype");
+  font-family: "YoungSerif-Regular";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-* {
+:root {
   --White: hsl(0, 0%, 100%);
   --Stone_100: hsl(30, 54%, 90%);
   --Stone_150: hsl(30, 18%, 87%);
@@ -16,18 +16,31 @@
   --Rose_50: hsl(330, 100%, 98%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
   min-width: 375px;
   width: 100%;
   display: flex;
   top: 0;
   justify-content: center;
-  background: var(--Rose_800);
+  background: var(--Rose_50);
 }
 
 .container {
   width: 375px;
   background-color: var(--White);
+}
+
+header img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "YoungSerif-Regular";
+  font-size: 15px;
 }
 
 @media screen and (min-width: 740px) {
