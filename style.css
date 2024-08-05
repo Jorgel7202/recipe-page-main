@@ -1,28 +1,42 @@
 @font-face {
-    font-family: 'Inter-Bold';
-    src: url(assets/fonts/static/Inter-Bold.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Inter-Bold";
+  src: url(assets/fonts/static/Inter-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    --White: hsl(0, 0%, 100%);
-    --Stone_100: hsl(30, 54%, 90%);
-    --Stone_150: hsl(30, 18%, 87%);
-    --Stone_600: hsl(30, 10%, 34%);
-    --Stone_900: hsl(24, 5%, 18%);
-    --Brown_800: hsl(14, 45%, 36%);
-    --Rose_800: hsl(332, 51%, 32%);
-    --Rose_50: hsl(330, 100%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Stone_100: hsl(30, 54%, 90%);
+  --Stone_150: hsl(30, 18%, 87%);
+  --Stone_600: hsl(30, 10%, 34%);
+  --Stone_900: hsl(24, 5%, 18%);
+  --Brown_800: hsl(14, 45%, 36%);
+  --Rose_800: hsl(332, 51%, 32%);
+  --Rose_50: hsl(330, 100%, 98%);
 }
 
-@media screen and (min-width: 375px) {
-    .container {
-        top: 26px;
-        left: 115px;
-        width: 383px;
-        height: 608px;
-        padding: 38px;
-    }
-    
+html {
+  min-width: 375px;
+  width: 100%;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  background: var(--Rose_800);
+}
+
+.container {
+  width: 375px;
+  background-color: var(--White);
+}
+
+@media screen and (min-width: 740px) {
+  html {
+    padding-top: 122px;
+  }
+  .container {
+    width: 738px;
+    border-radius: 25px;
+    padding: 35px;
+  }
 }
