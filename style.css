@@ -52,4 +52,7 @@ h1 {
     border-radius: 25px;
     padding: 35px;
   }
+  img{
+    border-radius: 15px;
+  }
 }
