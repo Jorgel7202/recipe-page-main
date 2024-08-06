@@ -1,7 +1,7 @@
 @font-face {
   font-family: "YoungSerif-Regular";
   src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -17,7 +17,7 @@
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -27,6 +27,7 @@ html {
   top: 0;
   justify-content: center;
   background: var(--Rose_50);
+  font-size: 14px;
 }
 
 .container {
@@ -38,9 +39,14 @@ header img {
   width: 100%;
 }
 
+.info, main {
+  margin: 0 34px;
+}
+
 h1 {
   font-family: "YoungSerif-Regular";
-  font-size: 15px;
+  font-size: 2.25em;
+  color: var(--Stone_900)
 }
 
 @media screen and (min-width: 740px) {
@@ -52,7 +58,10 @@ h1 {
     border-radius: 25px;
     padding: 35px;
   }
-  img{
+  img {
     border-radius: 15px;
   }
+  .info, main {
+    margin: 0;
+  }  
 }
