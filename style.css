@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --White: hsl(0, 0%, 100%);
   --Stone_100: hsl(30, 54%, 90%);
@@ -39,14 +46,20 @@ header img {
   width: 100%;
 }
 
-.info, main {
-  margin: 0 34px;
+.info,
+main {
+  margin: 0 34px 0 32px;
 }
 
 h1 {
   font-family: "YoungSerif-Regular";
   font-size: 2.25em;
-  color: var(--Stone_900)
+  color: var(--Stone_900);
+}
+p {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 1.1em;
 }
 
 @media screen and (min-width: 740px) {
@@ -61,10 +74,11 @@ h1 {
   img {
     border-radius: 15px;
   }
-  .info, main {
+  .info,
+  main {
     margin: 0;
-  }  
+  }
   h1 {
     font-size: 2.25em;
-  }  
+  }
 }
