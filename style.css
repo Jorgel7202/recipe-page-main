@@ -13,7 +13,6 @@
 }
 
 :root {
-<<<<<<< HEAD
   --White: hsl(0, 0%, 100%); /*fondo tarjeta*/
   --Stone_100: hsl(30, 54%, 90%); /*fondo preparation time*/
   --Stone_150: hsl(30, 18%, 87%); /*linea divisora*/
@@ -22,33 +21,19 @@
   --Brown_800: hsl(14, 45%, 36%); /*texto h3*/
   --Rose_800: hsl(332, 51%, 32%); /*texto h2 */
   --Rose_50: hsl(330, 100%, 98%); /*fondo html*/
-=======
-  --White: hsl(0, 0%, 100%);
-  --Stone_100: hsl(30, 54%, 90%);
-  --Stone_150: hsl(30, 18%, 87%);
-  --Stone_600: hsl(30, 10%, 34%);
-  --Stone_900: hsl(24, 5%, 18%);
-  --Brown_800: hsl(14, 45%, 36%);
-  --Rose_800: hsl(332, 51%, 32%);
-  --Rose_50: hsl(330, 100%, 98%);
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
 }
 
 * {
   box-sizing: border-box;
-<<<<<<< HEAD
   margin: 0;
   padding: 0;
   font-family: "Outfit";
   color: var(--Stone_600);
   width: 100%;
-=======
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
 }
 
 html {
   min-width: 375px;
-<<<<<<< HEAD
   top: 0;
   background: var(--Rose_50);
   font-size: 16px;
@@ -58,19 +43,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-=======
-  width: 100%;
-  display: flex;
-  top: 0;
-  justify-content: center;
-  background: var(--Rose_50);
-  font-size: 14px;
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
 }
 
 .container {
   width: 375px;
-<<<<<<< HEAD
   height: 1680px;
   background-color: var(--White);
 }
@@ -92,23 +68,10 @@ main {
 
 header div {
   padding-bottom: 14px;
-=======
-  background-color: var(--White);
-}
-
-header img {
-  width: 100%;
-}
-
-.info,
-main {
-  margin: 0 34px 0 32px;
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
 }
 
 h1 {
   font-family: "YoungSerif-Regular";
-<<<<<<< HEAD
   font-weight: 400;
   font-size: 2.25em;
   color: var(--Stone_900);
@@ -199,31 +162,18 @@ tr {
 td {
   padding: 12px 30px;
   width: 46.5%;
-=======
-  font-size: 2.25em;
-  color: var(--Stone_900);
-}
-p {
-  font-family: "Outfit";
-  font-weight: 700;
-  font-size: 1.1em;
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
 }
 
 @media screen and (min-width: 740px) {
   html {
     padding-top: 122px;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
   .container {
     width: 738px;
     border-radius: 25px;
     padding: 35px;
   }
-<<<<<<< HEAD
 
   img {
     border-radius: 15px;
@@ -254,16 +204,5 @@ p {
 
   ol li {
     padding: 5px 14px;
-=======
-  img {
-    border-radius: 15px;
-  }
-  .info,
-  main {
-    margin: 0;
-  }
-  h1 {
-    font-size: 2.25em;
->>>>>>> 24b38172e53de3d9094853133c8cef7ba36ecd1a
   }
 }
