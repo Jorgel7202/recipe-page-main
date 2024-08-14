@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%); /*fondo tarjeta*/
+  --Stone_100: hsl(30, 54%, 90%); /*fondo preparation time*/
+  --Stone_150: hsl(30, 18%, 87%); /*linea divisora*/
+  --Stone_600: hsl(30, 10%, 34%); /*texto nombre instruccion*/
+  --Stone_900: hsl(24, 5%, 18%); /*texto h1*/
+  --Brown_800: hsl(14, 45%, 36%); /*texto h3*/
+  --Rose_800: hsl(332, 51%, 32%); /*texto h2 */
+  --Rose_50: hsl(330, 100%, 98%); /*fondo html*/
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+  color: var(--Stone_600);
+  width: 100%;
+}
+
+html {
+  min-width: 375px;
+  top: 0;
+  background: var(--Rose_50);
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 375px;
+  height: 1680px;
+  background-color: var(--White);
+}
+
+section {
+  border-bottom: 1px solid var(--Stone_150);
+  padding: 28px 0 16px;
+  width: 100%;
+}
+
+section div {
+  width: 100%;
+}
+
+header div,
+main {
+  padding: 2px 31px;
+}
+
+header div {
+  padding-bottom: 14px;
+}
+
+h1 {
+  font-family: "YoungSerif-Regular";
+  font-weight: 400;
+  font-size: 2.25em;
+  color: var(--Stone_900);
+  line-height: 1;
+  margin: 34px 0 24px;
+}
+
+p {
+  font-family: "Outfit";
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: var(--Rose_800);
+  width: 100%;
+  margin: 23px 0 0 25px;
+  letter-spacing: 0.6px;
+}
+
+span {
+  font-weight: 600;
+}
+
+ul {
+  margin: 11px 23px;
+  width: 100%;
+}
+
+div > article > ul {
+  margin: 11px 46px;
+}
+
+li {
+  font-size: 1em;
+  padding: 5px 19px;
+  width: 97%;
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+}
+
+.borderNone {
+  border-bottom: 0;
+}
+
+div > article > ul > li {
+  width: 70%;
+  letter-spacing: 0.1px;
+}
+
+h3 {
+  font-family: "YoungSerif-Regular";
+  font-size: 1.75em;
+  margin-top: 0;
+  width: 100%;
+  color: var(--Brown_800);
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.first {
+  border-bottom: none;
+  padding: 0;
+  height: 172px;
+  background: var(--Rose_50);
+}
+
+ol {
+  margin: 13px 26px;
+}
+
+ol li {
+  padding: 7px 14px;
+}
+
+table {
+  margin: -8px 0;
+}
+
+tr {
+  display: flex;
+  border-bottom: 1px solid var(--Stone_150);
+  padding-top: 4px;
+}
+
+td {
+  padding: 12px 30px;
+  width: 46.5%;
+}
+
+@media screen and (min-width: 740px) {
+  html {
+    padding-top: 122px;
+  }
+
+  .container {
+    width: 738px;
+    border-radius: 25px;
+    padding: 35px;
+  }
+
+  img {
+    border-radius: 15px;
+  }
+
+  header div,
+  main {
+    padding: 2px 5px;
+  }
+  h1 {
+    font-size: 2.4em;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    left: 4px;
+    top: 16px;
+    position: relative;
+  }
+
+  div > article > ul {
+    margin: 27px 50px;
+  }
+
+  section {
+    padding: 25px 0 16px;
+  }
+
+  ol li {
+    padding: 5px 14px;
+  }
+}
